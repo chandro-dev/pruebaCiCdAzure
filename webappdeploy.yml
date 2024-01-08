@@ -6,8 +6,3 @@ pool:
 
 steps:
   - task: CopyFiles@2
-    displayName: 'Copy HTML files'
-    inputs:
-      command: 'ls'
-      Contents: '**/*.html'
-      TargetFolder: '$(Build.ArtifactStagingDirectory)'
