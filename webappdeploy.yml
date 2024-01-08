@@ -1,0 +1,13 @@
+trigger:
+- master
+
+pool:
+  vmImage: ubuntu-latest
+
+steps:
+  - task: CopyFiles@2
+    displayName: 'Copy HTML files'
+    inputs:
+      SourceFolder: '$(Build.SourcesDirectory)'
+      Contents: '**/*.html'
+      TargetFolder: '$(Build.ArtifactStagingDirectory)'
