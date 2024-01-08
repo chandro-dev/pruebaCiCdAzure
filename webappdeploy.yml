@@ -1,5 +1,12 @@
 trigger:
-- master
+- main
 
 pool:
-  vmImage: ubuntu-latest
+  vmImage: 'windows-latest'
+
+jobs:
+- job: DoNothing
+  displayName: 'Do Nothing'
+  steps:
+  - checkout: self
+  - script: echo 'This job does nothing.'
