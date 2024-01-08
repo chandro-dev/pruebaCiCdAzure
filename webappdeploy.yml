@@ -5,8 +5,15 @@ pool:
   vmImage: 'windows-latest'
 
 jobs:
-- job: DoNothing
-  displayName: 'Do Nothing'
+- job: ValidateHTML
+  displayName: 'Validate HTML File'
   steps:
   - checkout: self
-  - script: echo 'This job does nothing.'
+
+  - script: |
+      if exist "$(Build.SourcesDirectory)\index.html" (
+        echo 'HTML file exists. Continue with the pipeline.'
+      ) else (
+        echo 'ERROR: HTML file not found.'
+        exit 1
+      )
