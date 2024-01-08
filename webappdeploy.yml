@@ -3,6 +3,3 @@ trigger:
 
 pool:
   vmImage: ubuntu-latest
-
-steps:
-  - task: CopyFiles@2
