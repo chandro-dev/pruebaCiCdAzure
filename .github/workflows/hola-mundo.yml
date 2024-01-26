@@ -1,8 +1,8 @@
-name:hola-mundo
-on:[push]
+name: hola-mundo
+on: [push]
 jobs:
     build:
-
-        run-on:ubuntu-latest
+        run-on: ubuntu-latest
         steps:
          - name: checkout
+            run: echo "hola-mundo"
