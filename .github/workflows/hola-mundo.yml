@@ -4,5 +4,5 @@ jobs:
     build:
         run-on: ubuntu-latest
         steps:
-         - name: checkout
-            run: echo "hola-mundo"
+          - name: esto deberia hacer algo
+            run: echo "hola mundo"
