@@ -2,7 +2,7 @@ name: hola-mundo
 on: [push]
 jobs:
     build:
-        run-on: ubuntu-latest
+        runs-on: ubuntu-latest
         steps:
           - name: esto deberia hacer algo
             run: echo "hola mundo"
