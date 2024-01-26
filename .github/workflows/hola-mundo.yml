@@ -1,7 +1,7 @@
 name: hola-mundo
 on: [push]
 jobs:
-    hola maria:
+    hola_maria:
         runs-on: ubuntu-latest
         steps:
           - name: esto deberia hacer algo
