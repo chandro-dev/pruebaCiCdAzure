@@ -4,6 +4,7 @@ commit="$1"
 branch="$2"
 
 if [ -n "$commit" ]; then
+	clear
 	git add .
 	git commit -m $commit
 	if [ -n "$branch"]; then
