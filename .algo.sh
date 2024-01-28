@@ -6,8 +6,11 @@ branch="$2"
 if [ -n "$commit" ]; then
 	git add .
 	git commit -m $commit
-
-#	git push origin $branch
+	if [ -n "$branch"]; then
+		git push origin $branch
+	else
+		git push origin master
+	fi
 else
 	echo "la variable viene vacia"
 fi
