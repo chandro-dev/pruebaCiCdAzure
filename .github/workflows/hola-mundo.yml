@@ -1,13 +1,13 @@
 name: hola-mundo
-on: 
+on:
   push:
     branches:
-      - 'master'
+      - "master"
     paths:
-      - '**.html'
+      - "**.html"
 jobs:
-    hola_maria:
-        runs-on: ubuntu-latest
-        steps:
-          - name: esto deberia hacer algo
-            run: whoami
+  hola_maria:
+    runs-on: ubuntu-latest
+    steps:
+      - name: esto deberia hacer algo
+        run: whoami
