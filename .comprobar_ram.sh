@@ -11,7 +11,7 @@ if echo "$hola" | grep -q 'error'; then
 	git branch -b $hola
 	echo "rama creada"
 	git add . && git commit -m "la rama $hola fue creada"
-	git push origin $hola
+	echo git branch -a
 else
     echo "La rama existe."
 fi
