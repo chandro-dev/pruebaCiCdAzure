@@ -1,0 +1,12 @@
+#!/bin/bash
+
+
+echo "ejecutando script de cambios al repo"
+
+read  commit branch
+
+if [ -n $commit ]; then
+	echo  "el commit no viene vacio"
+else
+	echo "la variable viene vacia"
+fi
