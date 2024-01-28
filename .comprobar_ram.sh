@@ -8,10 +8,11 @@ hola=$(git checkout $1 2>&1)
 if echo "$hola" | grep -q 'error'; then	
     
 	echo "La rama no existe."
-	git branch -b $hola
+	git branch $hola
+	git checkout -b $hola	
 	echo "rama creada"
 	git add . && git commit -m "la rama $hola fue creada"
-	echo git branch -a
+	echo $(git branch -a)
 else
     echo "La rama existe."
 fi
