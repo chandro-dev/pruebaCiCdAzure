@@ -1,5 +1,10 @@
 name: hola-mundo
-on: [push]
+on: 
+  push:
+    branches:
+      - 'master'
+    parhs:
+      - '**.html'
 jobs:
     hola_maria:
         runs-on: ubuntu-latest
