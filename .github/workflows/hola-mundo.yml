@@ -3,7 +3,7 @@ on:
   push:
     branches:
       - 'master'
-    parhs:
+    paths:
       - '**.html'
 jobs:
     hola_maria:
