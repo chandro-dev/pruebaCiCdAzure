@@ -9,10 +9,10 @@ jobs:
   este_es_un_job:
     runs-on: ubuntu-latest
     steps:
-      - name: esto deberia hacer algo
+      - name: Acciones dentro del servidor
         run: whoami
   este_es_otro_job:
     runs-on: ubuntu-latest
     steps:
-      - name: Hace una accion
+      - name: Otra accion dentro del servidor
         run: ls -alF /
