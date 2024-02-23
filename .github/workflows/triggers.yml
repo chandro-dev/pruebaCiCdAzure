@@ -9,6 +9,5 @@ jobs:
     job_ejemplo:
         runs-on: ubuntu-latest
         steps:
-            - name: realizando_cambios
-                run: echo ejecutando algo
-
+            - name: Acciones dentro del servidor
+              run: echo ejecuando
