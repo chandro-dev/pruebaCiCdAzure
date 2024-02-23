@@ -7,3 +7,9 @@ on:
             - 'releases/**'
         paths:
             - '**.js'
+jobs:
+    ejecutando:
+        runs-on: ubuntu-latest
+        steps:
+            - name: ejecutando
+                run: echo ejecuando dentro de un pull request
