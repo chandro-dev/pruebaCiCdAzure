@@ -1,0 +1,7 @@
+name: trigger_ejemplo
+on:
+    push:
+        branches:
+            - 'master'
+        paths:
+            - '**.js'
