@@ -14,8 +14,7 @@ En este espacio, estaré explorando y aprendiendo sobre GitHub Actions, una herr
 ## Contribuciones
 Aprecio cualquier comentario, sugerencia o contribución que puedas tener para enriquecer mi aprendizaje. Si tienes ejemplos interesantes, consejos útiles o simplemente quieres compartir tu experiencia con GitHub Actions, ¡estaré encantado de escucharte!
 
-## Sobre mí
-Soy [breve descripción sobre ti y tu experiencia en desarrollo]. Estoy emocionado de embarcarme en este viaje de aprendizaje sobre GitHub Actions y espero compartir mis descubrimientos contigo.
+
 
 ## Recursos adicionales
 - Documentación oficial de GitHub Actions: [Enlace](https://docs.github.com/es/actions)
