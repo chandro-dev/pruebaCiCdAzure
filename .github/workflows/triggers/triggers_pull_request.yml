@@ -1,0 +1,9 @@
+name: ejemplo_pull_request
+on:
+    pull_request:
+        types:
+            - [opened, labeled]
+        branches:
+            - 'releases/**'
+        paths:
+            - '**.js'
