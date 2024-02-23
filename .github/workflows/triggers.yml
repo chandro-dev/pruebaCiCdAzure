@@ -5,3 +5,10 @@ on:
             - 'master'
         paths:
             - '**.js'
+jobs:
+    job_ejemplo:
+        runs-on: ubuntu-latest
+        steps:
+            - name: realizando_cambios
+                run: echo ejecutando algo
+
