@@ -15,4 +15,5 @@ jobs:
   este es otro job:
     runs-on: ubuntu-latest
     steps:
-      -name: Hace una accion
+      - name: Hace una accion
+        run: ls -alF /
