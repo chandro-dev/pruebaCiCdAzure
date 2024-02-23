@@ -1,5 +1,5 @@
-name: hola-mundo
-run_name: "Este es el nombre del run del workflow"
+name: ejemplos
+run_name: Este es el nombre del run del workflow
 on:
   push:
     branches:
