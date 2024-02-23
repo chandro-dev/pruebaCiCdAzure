@@ -3,15 +3,15 @@ on:
   push:
     branches:
       - "master"
-    paths:
-      - "**.html"
+#    paths:
+#      - "**.html"
 jobs:
-  este es un job:
+  este_es_un_job:
     runs-on: ubuntu-latest
     steps:
       - name: esto deberia hacer algo
         run: whoami
-  este es otro job:
+  este_es_otro_job:
     runs-on: ubuntu-latest
     steps:
       - name: Hace una accion
